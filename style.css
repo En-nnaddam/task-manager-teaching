@@ -66,8 +66,19 @@ body {
 }
 
 .task {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   padding: 8px;
   background-color: var(--primary-color-800);
+}
+
+.task img.circle-icon, .task img.trash-icon {
+  cursor: pointer;
+}
+
+.task span {
+  flex: 1;
 }
 
 svg.icon {
